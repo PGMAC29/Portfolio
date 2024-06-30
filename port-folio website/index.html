@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakritish Ghosh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-image background1">
+
+        <div class="nav-bar">
+
+            <div class="logo">
+                <img src="pictures/logo.png" alt="logo" style="height: 60px; padding: 20px 40px">
+            </div>
+
+            <div >
+
+                <list class="nav">
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Home</a></ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">About Me</a> </ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Projects</a></ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Contact Me</a> </ul>
+                </list>
+
+            </div>
+            <div class="menu">
+                <img src="pictures/down-arrows.png" alt="drop down menu" style="height: 40px; margin: 30px 50px 30px 0px;">
+            </div>
+
+            <div class="drop-down">
+
+                <list class="nav drop">
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Home</a></ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">About Me</a> </ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Projects</a></ul>
+                    <ul><a href="#" style="text-decoration: none; color: wheat;">Contact Me</a> </ul>
+                </list>
+
+            </div>
+        </div>
+
+        <div style="background-color: wheat; height: 3px;"></div>
+
+        <div class="border-1">
+
+            <h1 class="intro">
+                Hi, my name is <span style="color: #DDD8AC;">Prakritish Ghosh</span> and I am a
+            </h1>
+            <span id="element" class="intro" style="color: #9F6E49; padding-top: 50px;"></span>
+
+            <div class="btn-hold">
+                <button class="btn resume">Resume</button>
+                <button class="btn github"><a href="https://github.com/PGMAC29 " style="text-decoration: none; color: white;">Github</a></button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <div style="background-color: wheat; height: 3px; margin: 0px 0vw;"></div>
+
+    <div class="background-image background2">
+
+        <h1 class="tools-used">Tools Used</h1>
+
+        <div class="tools row1">
+            <button>C/C++</button>
+            <button>Java</button>
+            <button>JavaScript</button>
+            <button>HTML5/CSS3</button>
+        </div>
+        <div class="tools row2">
+            <button>Bootstrap</button>
+            <button>NodeJS</button>
+            <button>ExpressJS</button>
+            <button>ReactJs</button>
+        </div>
+        <div class="tools row3">
+            <button>PostgreSQL</button>
+            <button>Final Cut Pro</button>
+            <button>Git</button>
+            <button>MySQL</button>
+
+        </div>
+        <div class="projects">
+                <h1 class="tools-used">Projects</h1>
+                <list>
+                    <ul class="tools-used" style="font-size: 2vw; padding-top: 3vw;"><a href="https://github.com/PGMAC29/Netflix-Clone" alt="Netflix-Clone" style="text-decoration: none; color: #DDD8AC;">Netflix Clone</a></ul>
+                    <ul class="tools-used" style="font-size: 2vw; padding-top: 3vw;"><a href="https://github.com/PGMAC29/TinDog" alt="Tindog-Tinder" style="text-decoration: none; color: #DDD8AC;">Tindog-Tinder for Dogs</a></ul>
+                </list>
+        </div>
+
+        <div class="contact">
+
+            <h1 class="tools-used" style=" padding-top: 3vw;"> Contact Me </h1>
+
+            <div class="contact-me">
+
+                <list>
+                    <ul><a href="https://www.instagram.com/pgmac29/"><img src="pictures/insta.png" alt="">pgmac29</a></ul>
+                    <ul><a href="https://x.com/Prakritish29"><img src="pictures/twitter.png" alt="">Prakritish29</a></ul>
+                    <ul><a href="https://www.linkedin.com/in/prakritishghosh29/"><img src="pictures/linkedin.png" alt="">Prakritish Ghosh</a></ul>
+                    <ul><a href="https://github.com/PGMAC29"><img src="pictures/github.png" alt="">PGMAC29</a></ul>
+                    <ul><a href="https://www.youtube.com/@prakritishghosh2020"><img src="pictures/youtube.png" alt="">Prakritish Ghosh</a></ul>
+                </list>
+
+
+                <div class="form-flex">
+                        <input type="text" name="name" placeholder="Your Name" class="input-name" required>
+                        <input type="text" name="message" placeholder="Your Message" class="input-message" required>                    
+                        <button class="submit">Submit</button>
+                </div>
+                
+
+
+
+
+            </div>
+
+            
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Video Editor.', 'Web Developer.','C++ Developer.','Web Designer.','LEARNER.'],
+      typeSpeed: 50,
+    });
+  </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+</html>

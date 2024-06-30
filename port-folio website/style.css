@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow: none;
+}
+body{
+    background-color: #141510;
+}
+.background-image{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+.background1{
+    background-image: url('pictures/bg.jpg');
+}
+.background2{
+    background-image: url('pictures/bg\ copy.jpg');
+}
+.nav-bar{
+    background-color: #141510;
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    color: wheat;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Montserrat',sans-serif;
+
+}
+.nav>ul{
+    margin: 35px 30px;
+    text-align: center;
+}
+.nav>ul:hover{
+    background-color: #454034;
+    border-radius: 0.5em;
+    margin: 0px;
+    padding: 35px 30px;
+}
+.menu{
+    display: none;
+}
+.drop-down{
+    display: none;
+}
+.drop-down>list{
+    flex-direction: column;
+    margin-right: 40px;
+}
+.display{
+    display: flex;
+}
+
+.border-1{
+    border: solid 5px;
+    border-color: #9F6E49;
+    border-radius: 1.5em;
+    height: 50vw;
+    margin: 125px 110px;
+    padding: 80px 60px;
+}
+
+.intro{
+    width: 50vw;
+    font-size: 5vw;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+}
+
+.btn-hold{
+    margin-top: 10vw;
+}
+.btn{
+    font-size: 1.25rem;
+    padding: 5px 10px;
+    height: 3.125rem;
+    width: 15rem;
+    border: none;
+    border-radius: 1.5rem;
+    margin-right: 15vw;
+    border: solid 2px;
+    border-color:white ;
+}
+.btn:hover{
+    border: solid 3px;
+    border-color:white ;
+}
+.resume{
+    background-color: #9F6E49;
+    color: white;
+    margin-bottom: 3vw;
+}
+.github{
+    background-color: transparent;
+    
+    color: white;
+}
+.tools-used{
+    text-align: center;
+    padding-top: 5vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #DDD8AC;
+    font-size: 5vw;
+}
+.tools{
+    display: flex;
+    justify-content: space-around;
+
+}
+.tools>button {
+    font-size: 1.75vw;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-top: 5vw;
+    padding: 0.5vw 1vw;
+    width: 15vw;
+    border: solid 2px;
+    border-color: white;
+    border-radius: 1.5rem;
+    color: white;
+
+}
+.tools>button:hover{
+    background-color:#9F6E49;
+}
+.row1>button,.row3>button{
+background-color: #DDD8AC;
+}
+.row2>button{
+    background-color: transparent;
+
+}
+
+.projects{
+    border: solid 5px #9F6E49;
+    border-radius: 50%;
+    height: 60vw;
+    width: 60vw;
+    margin:10vw auto;
+    box-shadow:
+      0 0 60px 30px #9F6E49,
+      0 0 100px 60px #DDD8AC,
+      0 0 140px 90px white;
+}
+
+.contact{
+    background-color: #454034;
+    border-radius: 1.5rem;
+    height: auto;
+    margin:3vw;
+    padding-bottom: 3vw;
+    border: solid 5px #DDD8AC;
+}
+.contact-me{
+    display: flex;
+    justify-content: space-between;
+    padding:5vw
+}
+.contact-me>list{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.75rem ;
+    color: #DDD8AC;
+    text-decoration: none;
+}
+.contact-me>list>ul>a>img{
+    height: 2.5rem;
+    padding-right: 3rem;
+
+}
+.contact-me>list>ul>a{
+    text-decoration: none;
+    color: #DDD8AC;
+    margin-bottom: 5rem;
+}
+
+.form-flex{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+.input-name, .input-message{
+    height: 3rem;
+    width: 35vw;
+    border-radius: 1.5em;
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+}
+.input-message{
+    height: 8rem;
+    width: 35vw;
+}
+.submit{
+    font-size: 1.25rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    color: #DDD8AC;
+    background-color: transparent;
+    padding: 5px 10px;
+    height: 3rem;
+    width: 35vw;
+    border-radius: 1.5rem;
+    border: solid 2px;
+    border-color: #DDD8AC ; 
+}
+.submit:hover{
+    border: solid 3px;
+}
+
+
+
+@media only screen and (max-width:900px) {
+
+    .nav{
+        display: none;
+    }
+    .drop{
+        display: block;
+    }
+    .menu{
+        display: block;
+        
+    }
+
+    
+}
