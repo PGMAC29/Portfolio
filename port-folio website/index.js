@@ -1,5 +1,8 @@
 $(".menu").click(function(){
 
-    $(".drop-down").addClass(".display");
-    $(".display").removeClass(".drop-down");
-})
+    $(".menu>img").css({"display":"none"});
+    $(".drop-down").css({"display":"flex"});
+    $(".drop>ul").css({"background-color":"#9F6E49","padding":"10px","margin":"5px"});
+
+  });
+  
