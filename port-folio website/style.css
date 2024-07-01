@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    overflow: none;
 }
 html{
     overflow: none;
@@ -15,11 +16,12 @@ body{
     height: 200vh;
 }
 .background1{
-    background-image: url('pictures/bg.jpg');
+    background-image: url('assets/bg.jpg');
 }
 .background2{
-    background-image: url('pictures/bg\ copy.jpg');
+    background-image: url('assets/bg\ copy.jpg');
 }
+
 .nav-bar{
     background-color: #141510;
     display: flex;
@@ -41,7 +43,7 @@ body{
 }
 .nav>ul:hover{
     background-color: #454034;
-    border-radius: 0.5em;
+    border-radius: 1.5em;
     margin: 0px;
     padding: 35px 30px;
 }
@@ -102,8 +104,29 @@ body{
 }
 .github{
     background-color: transparent;
-    
     color: white;
+}
+.vertical{
+    height: 15vw;
+    width: 3px;
+    background-color: #DDD8AC;
+    margin: 0px 7vw;
+}
+.horizontal{
+    width: 20vw;
+    height: 5px;
+    background-color: #DDD8AC;
+    margin: 5vw 20px 5vw 0;
+}
+.about-1{
+    display: grid;
+
+}
+.about-2{
+    display: none;
+}
+.line-2{
+    display: none;
 }
 .tools-used{
     text-align: center;
@@ -231,10 +254,25 @@ background-color: #DDD8AC;
     }
     .menu{
         display: block;
-        
     }
 
     
+}
+
+@media only screen and (max-width:1100px) {
+    .about-1{
+        display: none;
+
+    }
+    .about-2{
+        display: grid;
+    }
+    .line-1{
+        display: none;
+    }
+    .line-2{
+        display: block;
+    }
 }
 @media only screen and (min-width:900px){
     .drop-down,.drop{
